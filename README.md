@@ -1,6 +1,10 @@
-# Classes
+# Rest parameters and spread syntax
 
-Define a class called `Person` that takes in two arguments (`firstName` and `lastName`) in the constructor.
+Do you know how to "merge" the value of the `newNumber ` variable into `numberStore` without using the array method push?
 
-const developer = new Person('Mario', 'Rossi');
-console.log(developer.firstName + " " + developer.lastName);
+```
+let numberStore = [0, 1, 2];
+let newNumber = 3;
+numberStore.push(newNumber);
+console.log(numberStore);
+```

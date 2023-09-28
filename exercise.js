@@ -1,8 +1,9 @@
-class Person {
-  constructor(firstName, lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-  }
+let numberStore = [0, 1, 2];
+let newNumber = 3;
+// numberStore.push(newNumber);
+
+function merge(newNumber, numberStore) {
+  let merged = [...numberStore, newNumber];
+  return merged;
 }
-const developer = new Person("Mario", "Rossi");
-console.log(developer.firstName + " " + developer.lastName);
+console.log(merge(newNumber, numberStore));
